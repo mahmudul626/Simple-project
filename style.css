@@ -1,0 +1,115 @@
+*{
+    text decorations:none;
+}
+.navbar{
+    background:crimson;
+    font-family:calibri;
+    padding-right:15px;
+    padding-left:15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size:60px;
+    font-weight:600;
+    color:white;
+}
+li{
+    list-style:none;
+    display:inline-block;
+}
+li a{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    margin-right:25px;
+}
+button{
+    background-color:black;
+    margin-left:10px;
+    border-radius:10px;
+    padding:10px;
+    width:90px;
+}
+button a{
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+}
+body{
+    background-color:purple;
+}
+p{
+    border-radius:10px;
+    Background-color:lightblue;
+    border: solid;
+}
+-----login page----
+/*style.css*/
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  background: #f3f3f3;
+  flex-direction: column;
+  margin: 0;
+}
+
+.main {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  width: 500px;
+  text-align: center;
+}
+
+h1 {
+  color: #4CAF50;
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #555;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #4CAF50;
+  width: 100%;
+  font-size: 16px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
